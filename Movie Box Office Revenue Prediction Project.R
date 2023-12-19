@@ -15,7 +15,7 @@ cat("\014")
 options(scipen = 999)
 
 # Load Dataset
-movies = read.csv("C:/Users/jruth/OneDrive/Documents/dsproject/movies_metadata.csv")
+movies = read.csv("https://raw.githubusercontent.com/ruthvikjonna/Movie-Box-Office-Revenue-Predicton-Project/main/movies_metadata.csv")
 
 # Data Cleaning
 movies = na.omit(movies)
